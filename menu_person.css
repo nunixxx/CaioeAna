@@ -1,0 +1,26 @@
+	.mitens {
+	 border-left: 1px solid white;
+	 color: hsl(0,0%,0%. 0.8);
+	 cursor: pointer;
+	 list-style-type: none;
+	 margin: 4px;
+         padding: 2px;
+	 text-align: center;
+	 transition: width 2s;
+	 width: 150px;
+	 height: 30px;
+	}
+	.mitens a{
+	 font-weight: bold;
+	 display: block;
+	 color: white;
+	}
+	.mitens:hover {
+	 background-color: #87CEFA;
+	 border: 1px solid white;
+	 width: 300px;
+	}
+	#mlista {
+	 position: relative;
+ 	 padding: 0;
+	}
